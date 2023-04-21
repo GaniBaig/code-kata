@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
+import Header from './components/header';
+import Body from './components/body';
+import Theme from './styles/theme';
 
 const App = () => {
   return (
-    <div>
-      <h1>Loan System</h1>
-    </div>
+      <Theme>
+        <Header/>
+        <Body/>
+      </Theme>
   );
 };
 
